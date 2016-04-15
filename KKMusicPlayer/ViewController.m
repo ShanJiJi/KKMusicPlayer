@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
+
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *musicTableView;
 
 @end
 
@@ -16,7 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadPhoneMusicData];
+    
+}
+
+-(void)loadPhoneMusicData{
+    
+    NSString *musicDirectory =
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
