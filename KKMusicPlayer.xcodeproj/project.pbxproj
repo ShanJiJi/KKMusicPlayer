@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0432A1F91CC0F2CF0036A0BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432A1F81CC0F2CF0036A0BB /* main.m */; };
 		0432A1FC1CC0F2CF0036A0BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432A1FB1CC0F2CF0036A0BB /* AppDelegate.m */; };
-		0432A1FF1CC0F2CF0036A0BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432A1FE1CC0F2CF0036A0BB /* ViewController.m */; };
 		0432A2021CC0F2CF0036A0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432A2001CC0F2CF0036A0BB /* Main.storyboard */; };
 		0432A2051CC0F2CF0036A0BB /* KKMusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0432A2031CC0F2CF0036A0BB /* KKMusicPlayer.xcdatamodeld */; };
 		0432A2071CC0F2CF0036A0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432A2061CC0F2CF0036A0BB /* Assets.xcassets */; };
 		0432A20A1CC0F2CF0036A0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432A2081CC0F2CF0036A0BB /* LaunchScreen.storyboard */; };
 		0432A2151CC0F2CF0036A0BB /* KKMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432A2141CC0F2CF0036A0BB /* KKMusicPlayerTests.m */; };
 		0432A2201CC0F2CF0036A0BB /* KKMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432A21F1CC0F2CF0036A0BB /* KKMusicPlayerUITests.m */; };
+		049AF0CA1D212FE70096F1DC /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0C91D212FE70096F1DC /* MyNavigationController.m */; };
+		049AF0CD1D2130740096F1DC /* KKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0CC1D2130740096F1DC /* KKMainViewController.m */; };
+		049AF0D01D2130B40096F1DC /* KKMusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AF0CF1D2130B40096F1DC /* KKMusicListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,6 @@
 		0432A1F81CC0F2CF0036A0BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0432A1FA1CC0F2CF0036A0BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0432A1FB1CC0F2CF0036A0BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0432A1FD1CC0F2CF0036A0BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0432A1FE1CC0F2CF0036A0BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0432A2011CC0F2CF0036A0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0432A2041CC0F2CF0036A0BB /* KKMusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KKMusicPlayer.xcdatamodel; sourceTree = "<group>"; };
 		0432A2061CC0F2CF0036A0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,12 @@
 		0432A21B1CC0F2CF0036A0BB /* KKMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432A21F1CC0F2CF0036A0BB /* KKMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKMusicPlayerUITests.m; sourceTree = "<group>"; };
 		0432A2211CC0F2CF0036A0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049AF0C81D212FE70096F1DC /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		049AF0C91D212FE70096F1DC /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		049AF0CB1D2130740096F1DC /* KKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMainViewController.h; sourceTree = "<group>"; };
+		049AF0CC1D2130740096F1DC /* KKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMainViewController.m; sourceTree = "<group>"; };
+		049AF0CE1D2130B40096F1DC /* KKMusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMusicListViewController.h; sourceTree = "<group>"; };
+		049AF0CF1D2130B40096F1DC /* KKMusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMusicListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +111,18 @@
 			children = (
 				0432A1FA1CC0F2CF0036A0BB /* AppDelegate.h */,
 				0432A1FB1CC0F2CF0036A0BB /* AppDelegate.m */,
-				0432A1FD1CC0F2CF0036A0BB /* ViewController.h */,
-				0432A1FE1CC0F2CF0036A0BB /* ViewController.m */,
 				0432A2001CC0F2CF0036A0BB /* Main.storyboard */,
 				0432A2061CC0F2CF0036A0BB /* Assets.xcassets */,
 				0432A2081CC0F2CF0036A0BB /* LaunchScreen.storyboard */,
 				0432A20B1CC0F2CF0036A0BB /* Info.plist */,
 				0432A2031CC0F2CF0036A0BB /* KKMusicPlayer.xcdatamodeld */,
 				0432A1F71CC0F2CF0036A0BB /* Supporting Files */,
+				049AF0C81D212FE70096F1DC /* MyNavigationController.h */,
+				049AF0C91D212FE70096F1DC /* MyNavigationController.m */,
+				049AF0CB1D2130740096F1DC /* KKMainViewController.h */,
+				049AF0CC1D2130740096F1DC /* KKMainViewController.m */,
+				049AF0CE1D2130B40096F1DC /* KKMusicListViewController.h */,
+				049AF0CF1D2130B40096F1DC /* KKMusicListViewController.m */,
 			);
 			path = KKMusicPlayer;
 			sourceTree = "<group>";
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0432A1FF1CC0F2CF0036A0BB /* ViewController.m in Sources */,
 				0432A1FC1CC0F2CF0036A0BB /* AppDelegate.m in Sources */,
+				049AF0CD1D2130740096F1DC /* KKMainViewController.m in Sources */,
+				049AF0D01D2130B40096F1DC /* KKMusicListViewController.m in Sources */,
+				049AF0CA1D212FE70096F1DC /* MyNavigationController.m in Sources */,
 				0432A2051CC0F2CF0036A0BB /* KKMusicPlayer.xcdatamodeld in Sources */,
 				0432A1F91CC0F2CF0036A0BB /* main.m in Sources */,
 			);
@@ -502,6 +514,7 @@
 				0432A2261CC0F2CF0036A0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0432A2271CC0F2CF0036A0BB /* Build configuration list for PBXNativeTarget "KKMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				0432A2291CC0F2CF0036A0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0432A22A1CC0F2CF0036A0BB /* Build configuration list for PBXNativeTarget "KKMusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				0432A22C1CC0F2CF0036A0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
